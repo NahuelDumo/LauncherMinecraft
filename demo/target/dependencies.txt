@@ -1,0 +1,31 @@
+digraph "launcher:demo:jar:1.0-SNAPSHOT" { 
+	"launcher:demo:jar:1.0-SNAPSHOT" -> "org.openjfx:javafx-controls:jar:16:compile" ; 
+	"launcher:demo:jar:1.0-SNAPSHOT" -> "org.apache.httpcomponents:httpclient:jar:4.5.13:compile" ; 
+	"launcher:demo:jar:1.0-SNAPSHOT" -> "org.openjfx:javafx-media:jar:16:compile" ; 
+	"launcher:demo:jar:1.0-SNAPSHOT" -> "fr.flowarg:openlauncherlib:jar:3.2.6:compile" ; 
+	"org.openjfx:javafx-controls:jar:16:compile" -> "org.openjfx:javafx-controls:jar:win:16:compile" ; 
+	"org.openjfx:javafx-controls:jar:16:compile" -> "org.openjfx:javafx-graphics:jar:16:compile" ; 
+	"org.openjfx:javafx-graphics:jar:16:compile" -> "org.openjfx:javafx-graphics:jar:win:16:compile" ; 
+	"org.openjfx:javafx-graphics:jar:16:compile" -> "org.openjfx:javafx-base:jar:16:compile" ; 
+	"org.openjfx:javafx-base:jar:16:compile" -> "org.openjfx:javafx-base:jar:win:16:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "org.apache.httpcomponents:httpcore:jar:4.4.13:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "commons-logging:commons-logging:jar:1.2:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "commons-codec:commons-codec:jar:1.11:compile" ; 
+	"org.openjfx:javafx-media:jar:16:compile" -> "org.openjfx:javafx-media:jar:win:16:compile" ; 
+	"fr.flowarg:openlauncherlib:jar:3.2.6:compile" -> "org.json:json:jar:20230227:runtime" ; 
+ } digraph "launcher:demo:jar:1.0-SNAPSHOT" { 
+	"launcher:demo:jar:1.0-SNAPSHOT" -> "org.openjfx:javafx-controls:jar:16:compile" ; 
+	"launcher:demo:jar:1.0-SNAPSHOT" -> "org.apache.httpcomponents:httpclient:jar:4.5.13:compile" ; 
+	"launcher:demo:jar:1.0-SNAPSHOT" -> "org.openjfx:javafx-media:jar:16:compile" ; 
+	"launcher:demo:jar:1.0-SNAPSHOT" -> "fr.flowarg:openlauncherlib:jar:3.2.6:compile" ; 
+	"org.openjfx:javafx-controls:jar:16:compile" -> "org.openjfx:javafx-controls:jar:win:16:compile" ; 
+	"org.openjfx:javafx-controls:jar:16:compile" -> "org.openjfx:javafx-graphics:jar:16:compile" ; 
+	"org.openjfx:javafx-graphics:jar:16:compile" -> "org.openjfx:javafx-graphics:jar:win:16:compile" ; 
+	"org.openjfx:javafx-graphics:jar:16:compile" -> "org.openjfx:javafx-base:jar:16:compile" ; 
+	"org.openjfx:javafx-base:jar:16:compile" -> "org.openjfx:javafx-base:jar:win:16:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "org.apache.httpcomponents:httpcore:jar:4.4.13:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "commons-logging:commons-logging:jar:1.2:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "commons-codec:commons-codec:jar:1.11:compile" ; 
+	"org.openjfx:javafx-media:jar:16:compile" -> "org.openjfx:javafx-media:jar:win:16:compile" ; 
+	"fr.flowarg:openlauncherlib:jar:3.2.6:compile" -> "org.json:json:jar:20230227:runtime" ; 
+ } 
